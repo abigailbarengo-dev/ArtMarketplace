@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abi&Co</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- link css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css"> <!-- link normalize-->
+
+</head>
+<body>
+
+    <header class="header"> <!--bloque-->
+        <a href="paginaPrincipal.html">
+            <img class="header__logo" src="Abi &Co..png" alt="Logotipo"> <!--alt to name the image-->
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>     <!-- #: links / enlaces-->  
+        <a class="navegacion__enlace " href="nosotros.html">Nosotros</a>   <!-- ...--activo: modificador-->
+    </nav>
+
+    
+    <form class="formulario">       <!--BARRA NAVEGADOR DE BUSQUEDA-->
+        <fieldset class="formulario__submit">
+            <div>
+            <h4>¡Busque la obra que desee!</h4>
+                <input type="text">
+            </div>
+            <div>
+              <input type="submit" value="Buscar">
+            </div>
+        </fieldset>
+        
+    </form>
+
+
+
+    <!-- SEGUNDO FORMULARIO DE CANTIDAD DE PRODUCTOS QUE ACTUALMENTE ESTAN EN VENTA-->
+    <form class="cantidad_productos_venta">       
+        <fieldset class="cantidad_venta">
+            <div>
+            <h4>Cantidad de productos que están en venta / oferta actualmente</h4>
+
+            <p id="cantidad-obras"></p>
+            <script src="API.js"></script>
+
+            </div>
+        </fieldset>
+        
+    </form>
+
+
+    
+    <main class="contenedor">
+        
+        <h1>Nuestras pinturas</h1>
+
+    <!--COMIENZO CLASE PRODUCTOS-->
+        <div class="grid">
+            <div class="producto">
+                <a href="producto.html">  
+                    <img class="producto__imagen" src="remediosVaro.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Inquietante presencia"</p>
+                        <p class="producto__artista">Remedios Varo</p>
+                    </div>
+                </a>
+            </div>
+    
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="terapeuta.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Terapeuta"</p>
+                        <p class="producto__artista">Rene Magritte</p>  
+                    </div>
+                </a>
+            </div>
+    
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="ledayelcisne.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Leda y el cisne"</p>
+                        <p class="producto__artista">Francois Boucher</p>
+                    </div>
+                </a>
+            </div>
+    
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="efectonieve.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Efecto nieve, el camino hacia Loosen"</p>
+                        <p class="producto__artista">Claude Monet</p>
+                    </div>
+                </a>
+            </div>
+    
+  
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="lincoln.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Gala"</p>
+                        <p class="producto__artista">Salvador Dali</p>
+                    </div>
+                </a>
+            </div>
+    
+   
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="pipaboi.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Chico con una pipa"</p>
+                        <p class="producto__artista">Pablo Picasso</p>
+                    </div>
+                </a>
+            </div>
+    
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="martirio.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"El martirio de Santa Lucía"</p>
+                        <p class="producto__artista">Sebastiano Ricci</p>
+                    </div>
+                </a>
+            </div>
+    
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="bosco.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Jardín de los placeres terrenales - Parte central"</p>
+                        <p class="producto__artista">El Bosco</p>
+                    </div>
+                </a>
+            </div>
+    
+   
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="mariposa.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Chica mariposa"</p>
+                        <p class="producto__artista">Svetlana Sokolova</p>
+                    </div>
+                </a>
+            </div>
+   
+   
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="kandinsky.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Flotación pesada"</p>
+                        <p class="producto__artista">Wassily Kandinsky</p>
+                    </div>
+                </a>
+            </div>
+    
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="bosque.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Niños en el bosque"</p>
+                        <p class="producto__artista">Ivan Nikolaevich Kramskoy</p>
+                    </div>
+                </a>
+            </div>
+    
+   
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="subastador.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Retrato de un hombre ("El subastador")"</p>
+                        <p class="producto__artista">Rembrandt van Rijn</p>
+                    </div>
+                </a>
+            </div>
+    
+   
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="borde.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Dos al borde del bosque"</p>
+                        <p class="producto__artista">Camille Pissarro</p>
+                    </div>
+                </a>
+            </div>
+    
+   
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="estocolmo.webp" alt="imagen-obra">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">"Paisaje de Estocolmo"</p>
+                        <p class="producto__artista">Gabriele Münter</p>
+                    </div>
+                </a>
+            </div>  
+
+            <div class="grafico grafico--fotoMedio"></div>    <!-- --FOTOS DEL COSTADO / --graficos: modificadores-->
+            <div class="grafico grafico--fotoMedio2"></div> 
+
+
+        </div> <!--FIN CLASE GRID-->
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Abi Collections & Co - Todos los derechos reservados 2024</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- links preconnect para fuente?¿-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body>
+    <header class="header"> <!--bloque-->
+        <a href="paginaPrincipal.html">
+            <img class="header__logo" src="Abi &Co..png" alt="Logotipo"> <!--alt to name the image-->
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="paginaPrincipal.html">Tienda</a>     <!-- #: links / enlaces-->  
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>   <!--a*2 abbreviation--> <!-- ...--activo: modificador-->
+    </nav>
+
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+ 
+        <div class="nosotros">
+
+            <div class="nostros__contenido">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ipsum sem, pulvinar sed iaculis eget, porta pharetra nisl. Nullam pretium velit tellus, 
+                    sed porttitor augue maximus non. Sed vitae mi quis enim lobortis blandit a vel leo. Nunc gravida tellus quam. Suspendisse 
+                    tempus, odio at eleifend finibus, urna dolor congue nulla, sit amet pharetra enim urna eu mauris. 
+                    Nulla iaculis sollicitudin dui. Pellentesque non leo consequat est consectetur pellentesque. Aenean laoreet nec massa 
+                    ut lobortis. Integer luctus tincidunt nisi at convallis. Aliquam eget est dui. Vivamus in lacinia dolor, sed 
+                    malesuada libero. 
+                </p>
+
+                <p> Praesent ante ligula, pulvinar vel purus sed, rutrum pulvinar sapien. Duis consectetur enim lectus, et bibendum turpis 
+                    ornare elementum. Aliquam erat volutpat. Nulla neque tellus, suscipit vel magna auctor, pellentesque sollicitudin diam. 
+                    Etiam et pulvinar risus. Mauris malesuada, neque quis luctus viverra, mauris urna pellentesque turpis, 
+                    eu ultrices enim leo sed mauris. 
+                </p>
+
+            </div>
+
+            <img class="nosotros__imagen" src="imagen_Nosotros.jpeg" alt="imagen nosotros">
+
+        </div>
+
+    </main>
+
+    <!--CONTENEDOR DE ICONOS-->
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Por qué comprar en nuestras tiendas?</h2>
+
+        <div class="bloques">
+
+            <div class="bloque">            <!-- PONER ICONOS: listo -->
+                <img class="bloque__imagen" src="ahorrar-dinero.gif" alt="por qué comprar">
+                <h3 class="bloque__titulo">Productos asequibles</h3>
+                <p>Mauris malesuada, neque quis luctus viverra, mauris urna pellentesque turpis, 
+                eu ultrices enim leo sed mauris. </p>
+            </div> 
+            <!--bloque-->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="arte.gif" alt="por qué comprar">
+                <h3 class="bloque__titulo">Creado para aficionados</h3>
+                <p>Mauris malesuada, neque quis luctus viverra, mauris urna pellentesque turpis, 
+                eu ultrices enim leo sed mauris. </p>
+            </div>
+            <!--bloque-->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="24-horas.gif" alt="por qué comprar">
+                <h3 class="bloque__titulo">Envío gratis y veloz</h3>
+                <p>Mauris malesuada, neque quis luctus viverra, mauris urna pellentesque turpis, 
+                eu ultrices enim leo sed mauris. </p>
+            </div> 
+            <!--bloque-->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="seguro-de-calidad.gif" alt="por qué comprar">
+                <h3 class="bloque__titulo">Obras transportadas desde el caballete</h3>
+                <p>Mauris malesuada, neque quis luctus viverra, mauris urna pellentesque turpis, 
+                eu ultrices enim leo sed mauris. </p>
+            </div> 
+            <!--bloque-->
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2024</p>
+    </footer>
+
+</body>
+</html>
